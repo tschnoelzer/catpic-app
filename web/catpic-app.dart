@@ -1,3 +1,5 @@
+#library('catpic-app');
+
 #import('package:catpic/catpic.dart');
 #import('package:widget/widget.dart');
 #import('package:frame/frame.dart');
