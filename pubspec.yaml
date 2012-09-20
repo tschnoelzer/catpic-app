@@ -1,0 +1,6 @@
+name: catpic-app
+dependencies:
+  catpic:
+    git: git://github.com/sethladd/catpic.git
+  frame:
+    git: git://github.com/sethladd/frame.git
