@@ -2,10 +2,17 @@
 <html>
 <head>
   <title>Your life is complete</title>
+  <link rel="components" href="packages/catpic/components/cat_pic.html">
+  <link rel="components" href="packages/frame/components/frame.html">
 </head>
 <body>
   <h1>Your life is complete</h1>
+  
+  <div is="x-frame"><img is="cat-pic" kitten="1"></div>
+  <img is="cat-pic" kitten="2">
+  <img is="cat-pic" kitten="3">
+  
   <script type="application/dart" src="catpic-app.dart"></script>
-  <script src="http://dart.googlecode.com/svn/branches/bleeding_edge/dart/client/dart.js"></script>
+  <script src="packages/browser/dart.js"></script>
 </body>
 </html>

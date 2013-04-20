@@ -2,3 +2,5 @@ pubspec.lock
 packages
 .project
 .DS_Store
+web/out
+.buildlog

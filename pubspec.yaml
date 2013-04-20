@@ -1,6 +1,8 @@
 name: catpic-app
 dependencies:
   catpic:
-    git: git://github.com/sethladd/catpic.git
+    path: /Users/sethladd/Code/catpic
   frame:
-    git: git://github.com/sethladd/frame.git
+    path: /Users/sethladd/Code/frame
+  browser: any
+  web_ui: any
